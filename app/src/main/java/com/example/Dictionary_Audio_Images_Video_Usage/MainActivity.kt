@@ -1,6 +1,5 @@
-package com.example.sms_to_mail_responder
+package com.example.Dictionary_Audio_Images_Video_Usage
 
-import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.Menu
 import android.widget.TextView
@@ -15,10 +14,6 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import java.util.*
-import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration

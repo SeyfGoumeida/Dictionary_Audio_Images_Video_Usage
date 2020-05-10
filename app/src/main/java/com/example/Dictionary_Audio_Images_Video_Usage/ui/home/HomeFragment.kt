@@ -1,24 +1,19 @@
-package com.example.sms_to_mail_responder.ui.home
+package com.example.Dictionary_Audio_Images_Video_Usage.ui.home
 
-import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sms_to_mail_responder.MainActivity
-import com.example.sms_to_mail_responder.R
-import com.example.sms_to_mail_responder.Word
-import com.example.sms_to_mail_responder.WordsAdapter
-import kotlinx.android.synthetic.main.item_word.*
-import kotlinx.android.synthetic.main.nav_header_main.*
+import com.example.Dictionary_Audio_Images_Video_Usage.R
+import com.example.Dictionary_Audio_Images_Video_Usage.Word
+import com.example.Dictionary_Audio_Images_Video_Usage.WordsAdapter
 
 class HomeFragment : Fragment() , WordsAdapter.OnWordItemClickListner {
 

@@ -1,19 +1,11 @@
-package com.example.sms_to_mail_responder
+package com.example.Dictionary_Audio_Images_Video_Usage
 
-import android.app.Activity
-import android.graphics.Color
-import android.media.MediaPlayer
-import android.provider.UserDictionary
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Adapter
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.sms_to_mail_responder.ui.home.HomeFragment
-import java.security.AccessController.getContext
 
 
 class WordsAdapter(private val words: ArrayList<Word>, var clickListner: OnWordItemClickListner):

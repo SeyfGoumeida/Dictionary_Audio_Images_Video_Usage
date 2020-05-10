@@ -1,13 +1,15 @@
-package com.example.sms_to_mail_responder.ui.slideshow
+package com.example.Dictionary_Audio_Images_Video_Usage.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+        value = "Home Fragment"
     }
     val text: LiveData<String> = _text
+
+
 }

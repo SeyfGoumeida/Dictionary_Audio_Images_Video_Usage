@@ -1,4 +1,4 @@
-package com.example.sms_to_mail_responder
+package com.example.Dictionary_Audio_Images_Video_Usage
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

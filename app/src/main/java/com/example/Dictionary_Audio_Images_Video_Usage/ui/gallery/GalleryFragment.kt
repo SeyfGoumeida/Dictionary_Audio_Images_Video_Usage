@@ -1,4 +1,4 @@
-package com.example.sms_to_mail_responder.ui.gallery
+package com.example.Dictionary_Audio_Images_Video_Usage.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.sms_to_mail_responder.R
+import com.example.Dictionary_Audio_Images_Video_Usage.R
 
 class GalleryFragment : Fragment() {
 
