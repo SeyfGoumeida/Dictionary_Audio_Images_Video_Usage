@@ -18,7 +18,7 @@ import com.example.sms_to_mail_responder.WordsAdapter
 class HomeFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel
-
+    var activity=MainActivity()
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
@@ -39,7 +39,7 @@ class HomeFragment : Fragment() {
             var word = Word(i)
             words.add(word)
         }
-        listWords.adapter = WordsAdapter(words as ArrayList<Word>)
+        listWords.adapter = WordsAdapter(words as ArrayList<Word>,activity)
 
 
         //--------------------------------------------------------
