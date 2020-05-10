@@ -21,7 +21,6 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var appBarConfiguration: AppBarConfiguration
     lateinit var listWords : TextView
     override fun onCreate(savedInstanceState: Bundle?) {
