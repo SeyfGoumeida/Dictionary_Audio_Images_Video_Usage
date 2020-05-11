@@ -8,17 +8,26 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_gallery">Picture</string>
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
 
     <array name="array_words">
-        <item>Elon Musk</item>
+        <item> Elon Musk</item>
         <item>Bill Gates</item>
         <item>Steve Jobs</item>
         <item>Jack Ma</item>
         <item>Mark Zuckerberg</item>
-
+    </array>
+    <array name="array_descriptions">
+        <item>Who Is Elon Musk? Elon Reeve Musk is a South African-born American entrepreneur and businessman who founded X.com in 1999 (which later became PayPal), SpaceX in 2002 and Tesla Motors in 2003. Musk became a multimillionaire in his late 20s when he sold his start-up company, Zip2, to a division of Compaq Computers</item>
+        <item>Gates was born William Henry Gates III on October 28, 1955, in Seattle, Washington. ... Gates showed early signs of competitiveness when he coordinated family athletic games at their summer house on Puget Sound. He also relished in playing board games (Risk was his favorite) and excelled at Monopoly.
+            Birth Date: October 28, 1955 (age 64)
+            Education: Lakeside School, Harvard College</item>
+        <item>Steve Jobs was born in 1955 and raised by adoptive parents in Cupertino, California. Though he was interested in engineering, his passions as a youth varied. After dropping out of Reed College, Jobs worked as a video game designer at Atari and later went to India to experience Buddhism. In 1976 he helped launch Apple</item>
+        <item>Jack Ma is the founder of the E-commerce giant Alibaba and is a stakeholder at Alipay, it’s sister company which is an e-payment portal. He is now officially the richest man in China with an estimated net worth of $25 Billion, on the back of the recent world record $150 Billion IPO filing of his company. Given all of this, Jack Ma only holds a 7.8% stake in Alibaba and a 50% stake in Alipay. Alibaba and Jack Ma, although are not household names out of China, you must know that Alibaba is worth more than Facebook, and processes goods more than eBay and Amazon combined!</item>
+        <item>Who Is Mark Zuckerberg?
+            Mark Zuckerberg co-founded the social-networking website Facebook out of his college dorm room at Harvard University. Zuckerberg left college after his sophomore year to concentrate on the site, the user base of which has grown to more than two billion people, making Zuckerberg a billionaire many times over. The birth of Facebook was portrayed in the 2010 film The Social Network.</item>
     </array>
 </resources>

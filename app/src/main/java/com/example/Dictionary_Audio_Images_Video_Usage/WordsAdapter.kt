@@ -4,7 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
+import android.widget.VideoView
 import androidx.recyclerview.widget.RecyclerView
 
 
@@ -30,13 +32,22 @@ class WordsAdapter(private val words: ArrayList<Word>, var clickListner: OnWordI
     class ViewHolder(item: View): RecyclerView.ViewHolder(item){
         var name:TextView = item.findViewById(R.id.word_name)
         var pronounce:Button = item.findViewById(R.id.pronounce_button)
+        var picture:ImageView = item.findViewById(R.id.picture_imageView)
+        var description:TextView = item.findViewById(R.id.description_textView)
+        var video : VideoView = item.findViewById(R.id.videoView);
+        var playBtn : Button=item.findViewById(R.id.btnPlay)
+
         fun initialize(item:Word,action:OnWordItemClickListner){
             name.text=item.name
+
             name.setOnClickListener {
-                action.OnWordItemClick(item,adapterPosition,name)
+                action.OnWordItemClick(item,adapterPosition,name,picture,description,video,playBtn)
             }
             pronounce.setOnClickListener {
                 action.OnPronounceItemClick(item,adapterPosition)
+            }
+            playBtn.setOnClickListener {
+                action.OnPlayItemClick(item,adapterPosition,name,video)
             }
 
         }
@@ -46,7 +57,10 @@ class WordsAdapter(private val words: ArrayList<Word>, var clickListner: OnWordI
         fun OnPronounceItemClick(item:Word , Position:Int){
 
         }
-        fun OnWordItemClick(item:Word , Position:Int,view :TextView){
+        fun OnWordItemClick(item:Word , Position:Int,name :TextView,picture :ImageView,description :TextView ,video : VideoView,playBtn : Button){
+
+        }
+        fun OnPlayItemClick(item:Word , Position:Int,name :TextView,video : VideoView){
 
         }
     }
